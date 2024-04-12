@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+}
+
+span{
+    background: url("   https://cdn-icons-png.flaticon.com/512/1828/1828884.png ");
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    background-size: cover;
+    pointer-events: none;
+    animation: animate 3s linear;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateX(0%) translateY(0%);
+    }
+
+    100%{
+        transform: translateX(50%) translateY(-5000%);
+    }
+}
